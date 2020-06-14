@@ -11,12 +11,12 @@ Code problems for Centime assignment
 
 #####Assumptions:
 1. Micro services are not hosted on AWS, they use localhost to communicate with each other for Task 1
-2. Eureka can be used for service discovery if needed or Micro servies can communicate via ALB URLs
+2. Eureka can be used for service discovery if needed or Micro services can communicate via ALB URLs
 3. No security framework is present to secure Micro servcies
 4. Test cases are not present
 5. For log tracing, Sleuth has been used in Micro services 1/2/3 but Zipkin is not used to look at them
-6. H2 in-memeory database is used for Task 2 in Micro service 4
-7. Exception hanlding is being where it was asked for, not at all places
+6. H2 in-memory database is used for Task 2 in Micro service 4
+7. Exception handling is being where it was asked for, not at all places
 8. Logging is minimal as needed
 9. Lombok had issues with IDE, so Lombok dependency and annotations are present but not used
 
